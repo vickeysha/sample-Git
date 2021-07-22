@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class Actions {
+	
+	 WebDriver driver;
 
 	WebDriver driver;
 	
