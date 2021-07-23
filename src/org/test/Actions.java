@@ -14,13 +14,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Actions {
 	
 	 WebDriver driver;
+
 public static void method2() {
 	// TODO Auto-generated method stub
 System.out.println("method2");
 }
-	
+public static void method1() {
+	// TODO Auto-generated method stub
+	System.out.println("method1");
+}
+
 	public static void main(String[] args) throws InterruptedException   {
 		method2();
+	
+	method1();
      System.setProperty("webdriver.chrome.driver","C:\\Users\\Venkatesh\\Documents\\Selenium Browser Drivers\\chromedriver.exe");
      
      WebDriver driver=new ChromeDriver();
