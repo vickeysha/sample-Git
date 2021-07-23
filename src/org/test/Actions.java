@@ -15,7 +15,7 @@ public class Actions {
 	
 	 WebDriver driver;
 
-	WebDriver driver;
+	
 	
 	public static void main(String[] args) throws InterruptedException   {
      System.setProperty("webdriver.chrome.driver","C:\\Users\\Venkatesh\\Documents\\Selenium Browser Drivers\\chromedriver.exe");
